@@ -1,6 +1,6 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
+import HeaderSection from "./components/HeaderSection";
 
 export default function Home() {
-  return <div>hi </div>;
+  return <HeaderSection />;
 }
