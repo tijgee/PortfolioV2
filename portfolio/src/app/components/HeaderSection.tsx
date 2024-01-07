@@ -1,15 +1,32 @@
 import { Box, Card, CardContent, Container, Typography } from "@mui/material";
+import { useEffect, useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 
 function HeaderSection(): JSX.Element {
   const backgroundImageUrl = 'url("/images/desktopBackground.jpg")';
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  const handleScroll = () => {
+    setScrollPosition(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <Box
       height="100vh"
       display="flex"
       justifyContent="center"
       alignItems="center"
-      style={{ backgroundImage: backgroundImageUrl, backgroundSize: "cover" }}
+      style={{
+        backgroundImage: backgroundImageUrl,
+        backgroundSize: "cover",
+        backgroundPosition: `center ${scrollPosition * 0.5}px`,
+      }}
     >
       <Container>
         <Card
@@ -31,23 +48,11 @@ function HeaderSection(): JSX.Element {
         >
           <CardContent>
             <Typography variant="h2" color="white" fontWeight="medium">
-              Hello, I'm
+              Timothy Gee
             </Typography>
-            <Typography
-              variant="h2"
-              color="cyan"
-              fontWeight="bold"
-              style={{ marginTop: "2rem" }}
-            >
+            <Typography variant="h5" color="cyan" style={{ marginTop: "1rem" }}>
               <TypeAnimation
-                sequence={[
-                  "Timothy Gee",
-                  1200,
-                  "Software Engineer",
-                  1000,
-                  "Web Developer",
-                  1000,
-                ]}
+                sequence={["Software Engineer", 1200, "Web Developer", 1000]}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
