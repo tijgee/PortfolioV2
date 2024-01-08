@@ -1,0 +1,34 @@
+[
+  {
+    "jobTitle": "Software Engineer",
+    "company": "NIWC Pacific",
+    "year": "2022 - Present",
+    "color": "darkblue",
+    "description": "Develop software for the navy.",
+    "link": "https://www.niwcpacific.navy.mil"
+  },
+  {
+    "jobTitle": "Ecommerce Developer",
+    "company": "THK America",
+    "year": "2022",
+    "color": "darkblue",
+    "description": "Developed software in support of THK online store.",
+    "link": "https://www.thk.com/?q=us"
+  },
+  {
+    "jobTitle": "Instructional Specialist",
+    "company": "Trilogy Education",
+    "year": "2022",
+    "color": "darkblue",
+    "description": "Taught students full stack web development.",
+    "link": "https://www.edx.org"
+  },
+  {
+    "jobTitle": "Full Stack Developer Intern",
+    "company": "Hazel",
+    "year": "2021-2022",
+    "color": "darkblue",
+    "description": "Helped develop mobile app Hazel with Flutter.",
+    "link": "https://gethazelapp.com"
+  }
+]

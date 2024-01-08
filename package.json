@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/react-router": "^5.1.20",
+    "react-swipeable-views": "^0.14.0"
+  }
+}
