@@ -96,7 +96,7 @@ function ExperienceSection(): JSX.Element {
                     </Typography>
                     <Typography
                       variant="subtitle1"
-                      color="white"
+                      color="cyan"
                       marginTop="1rem"
                     >
                       {experience.company}
