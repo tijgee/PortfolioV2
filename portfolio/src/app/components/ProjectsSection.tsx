@@ -46,7 +46,7 @@ function ProjectsSection() {
       <CssBaseline />
       <Box
         minHeight="50vh"
-        marginBottom="4rem"
+        paddingBottom="4rem"
         sx={{ backgroundColor: "black" }}
       >
         <Container>
