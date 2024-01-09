@@ -22,7 +22,7 @@ function AboutSection() {
         sx={{ backgroundColor: "black" }}
       >
         <Container>
-          <Typography variant="h5" textAlign="center">
+          <Typography variant="h5" textAlign="center" color="white">
             Raised in Irvine, California. Educated in Computer Science at UC
             Santa Cruz (2017-2021). Current Software Engineer at{" "}
             <Link

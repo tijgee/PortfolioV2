@@ -55,6 +55,7 @@ function ProjectsSection() {
             textAlign="center"
             marginTop="4rem"
             fontWeight="medium"
+            color="white"
           >
             Projects
           </Typography>
