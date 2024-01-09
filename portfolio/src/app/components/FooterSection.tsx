@@ -8,7 +8,7 @@ function FooterSection() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box sx={{ backgroundColor: "black" }}>
+      <Box sx={{ backgroundColor: "black", paddingBottom: "1rem" }}>
         <Container
           sx={{
             display: "flex",
