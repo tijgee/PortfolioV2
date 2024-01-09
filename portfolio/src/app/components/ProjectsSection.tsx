@@ -53,7 +53,7 @@ function ProjectsSection() {
           <Typography
             variant="h2"
             textAlign="center"
-            marginTop="4rem"
+            paddingTop="4rem"
             fontWeight="medium"
             color="white"
           >
