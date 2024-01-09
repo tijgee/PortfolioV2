@@ -2,11 +2,15 @@
   {
     "title": "Personal Website",
     "description": "Made with React, Next.js, MUI. You're looking at it now.",
-    "path": "../images/personalWebsite.png"
+    "path": "../images/personalWebsite.png",
+    "githubLink": "https://github.com/tijgee/PortfolioV2",
+    "websiteLink": ""
   },
   {
     "title": "SKelly's Uprising",
     "description": "2D topdown boss gauntlet game made in Unity",
-    "path": "../images/skellysUprising.png"
+    "path": "../images/skellysUprising3.png",
+    "githubLink": "https://github.com/Parker-D-Soto/170_Project",
+    "websiteLink": "https://team-working-title.itch.io/skellys-uprising"
   }
 ]
