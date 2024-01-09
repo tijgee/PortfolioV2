@@ -35,7 +35,7 @@ function FooterSection() {
         </Container>
         <Container
           sx={{
-            marginTop: "1rem",
+            paddingTop: "1rem",
             display: "flex",
             flexDirection: "row",
             justifyContent: "center",
