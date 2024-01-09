@@ -19,6 +19,7 @@ function AboutSection() {
         flexDirection="column"
         alignItems="center"
         justifyContent="center"
+        sx={{ backgroundColor: "black" }}
       >
         <Container>
           <Typography variant="h5" textAlign="center">

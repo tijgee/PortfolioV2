@@ -44,7 +44,11 @@ function ProjectsSection() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box minHeight="50vh" marginBottom="4rem">
+      <Box
+        minHeight="50vh"
+        marginBottom="4rem"
+        sx={{ backgroundColor: "black" }}
+      >
         <Container>
           <Typography
             variant="h2"
