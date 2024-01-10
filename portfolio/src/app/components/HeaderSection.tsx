@@ -43,7 +43,7 @@ function HeaderSection(): JSX.Element {
         <Container>
           <Card
             sx={{
-              width: "60%",
+              width: "70%",
               height: "30vh",
               background: "transparent",
               backgroundImage:
@@ -51,6 +51,7 @@ function HeaderSection(): JSX.Element {
               backdropFilter: "blur(7px)",
               boxShadow: "10px 10px 10px rgba(30,30,30,0.5)",
               margin: "0 auto",
+
               display: "flex",
               flexDirection: "column",
               alignItems: "center",

@@ -95,18 +95,6 @@ function ProjectsSection() {
               {projectData.map((step, index) => (
                 <div key={step.title}>
                   {Math.abs(activeStep - index) <= 2 ? (
-                    // <Box
-                    //   component="img"
-                    //   sx={{
-                    //     maxHeight: "60vh",
-                    //     maxWidth: "100%",
-                    //     width: "auto",
-                    //     height: "auto",
-                    //     objectFit: "contain",
-                    //   }}
-                    //   src={step.path}
-                    //   alt={step.title}
-                    // />
                     <Card
                       key={index}
                       sx={{
@@ -128,8 +116,8 @@ function ProjectsSection() {
                         src={step.path}
                         alt={step.title}
                         style={{
-                          width: "100%", // Make the width fill the container
-                          maxHeight: "60vh", // Set your desired max height
+                          width: "100%",
+                          maxHeight: "60vh",
                           height: "auto",
                           objectFit: "contain",
                           transition: "filter 0.3s ease-in-out",
